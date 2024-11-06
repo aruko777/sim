@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: white;
+    }
+
+.conteiner1{
+    display: flex;
+    padding: 5vh;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+
+
+    & .links a{
+        text-decoration: none;
+        margin: 1.5vh;
+        color: white;
+        padding: 1.5vh;
+    }
+
+    & .links :hover{
+        background: red;
+        border-radius: 5vh;
+    }
+
+
+
+}
+
+.conteiner2{
+    margin: 5vh;
+}
+
+.footer {
+    position: fixed;
+    padding: 5vh;
+
+    & .texto4{
+        background: black;
+    }
+}
